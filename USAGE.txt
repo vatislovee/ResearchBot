@@ -1,0 +1,21 @@
+# ResearchBot Usage Guide
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/Taptika/ResearchBot.git
+2. Install dependencies:
+   pip install -r requirements.txt
+
+## Running Scripts
+1. Fetch crypto prices:
+   python fetch_prices.py
+   - Output: CSV file with latest token prices from CoinGecko.
+
+2. Summarize reports:
+   python summarize_reports.py
+   - Output: Summaries of crypto reports for analysis.
+
+## Notes
+- Ensure you are in the folder where scripts are located when running commands.
+- Output files can be integrated into AI Twin knowledge base for ChainOpera.
+- All scripts rely on documented DataSources (CoinGecko, DeFiPulse).
